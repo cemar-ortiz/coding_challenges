@@ -32,4 +32,5 @@ def task(string: str) -> (str, str):
 	
 	# All operations not specified otherwise are estimated as constant time
 	# Estimated total time complexity of O(n²)
+	# Estimated space complexity of O(n) + O(n) = O(n)
 	return (string, ans)
